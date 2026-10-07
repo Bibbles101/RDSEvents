@@ -1,0 +1,18 @@
+name: RDSEvents
+version: 1.0.0
+main: dev.rds.rdsEvents.RDSEvents
+description: Lightweight, modular server event engine for Paper.
+author: Bibbles101
+api-version: '26.3'
+
+commands:
+  rdsevent:
+    description: Manage RDSEvents.
+    usage: /rdsevent <list|start|stop|reload>
+    aliases: [events, event]
+    permission: rdsevents.admin
+
+permissions:
+  rdsevents.admin:
+    description: Allows management of server events.
+    default: op
