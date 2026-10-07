@@ -1,0 +1,14 @@
+# RDSEvents configuration
+settings:
+  announce-start-stop: true
+
+events:
+  blood_moon:
+    display-name: "<red><bold>Blood Moon"
+    duration-seconds: 600
+    start-message: "<dark_red><bold>A Blood Moon has begun!"
+    end-message: "<gray>The Blood Moon has ended."
+    # Console commands run when the event starts/ends.
+    # The leading slash is optional.
+    start-commands: []
+    end-commands: []
